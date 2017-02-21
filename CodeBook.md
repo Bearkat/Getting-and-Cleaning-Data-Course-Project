@@ -4,9 +4,10 @@ Each of the features/variables in R objects “tidy” and "merged"" are derived
 
 Original data were downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Descriptions of the original features, from which we have derived these data can be found below. We extracted mean and standard deviation variables of each of the described features from X_test.txt and X_train.txt for each subject. We then determined the average value of each extracted variable for each subject for each activity. Angular velocity units are in radians per second. Acceleration data are in "gravity" units (presumably meters per second^2). Time and frequency indicate domains in which acceleration and angular velocity were obtained from accelerometer and gyroscope. Frequency signals are derived from time domain signals by application of a fast Fourier transform. X, Y and Z indicate relative direction.
+Descriptions of the original features, from which we have derived these data can be found below. We extracted mean and standard deviation variables of each of the described features from X_test.txt and X_train.txt for each subject. We then determined the average value of each extracted variable for each subject for each activity. Angular velocity units are in radians per second. Acceleration data are in "gravity" units (presumably meters per second^2). Time and frequency indicate domains in which acceleration and angular velocity were obtained from accelerometer and gyroscope, respectively. Frequency signals are derived from time domain signals by application of a fast Fourier transform. X, Y and Z indicate relative direction.
 
 We renamed the features into the following:
+
  [1] "body acceleration mean time X"                                         
  [2] "body acceleration mean time Y"                                         
  [3] "body acceleration mean time Z"                                         
