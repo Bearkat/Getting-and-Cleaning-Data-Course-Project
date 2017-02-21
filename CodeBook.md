@@ -1,17 +1,10 @@
-Each of the features/variables in R objects “tidy” and merge are derived from the dataset found in: 
+Each of the features/variables in R objects “tidy” and "merged"" are derived from the dataset found in: 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-Original data are downloaded from The data were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+Original data were downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Descriptions of the original features, from which we have derived these data can be found below. We extracted mean and standard deviation variables of each of the described 
-features from X_test.txt and X_train.txt for each subject. We then determined the 
-average value of each extracted variable for each subject for each activity. Angular 
-velocity units are in radians per second. Acceleration data are in "gravity" units 
-(presumably meters per second^2). Time and frequency indicate domains in which 
-acceleration and angular velocity were obtained from accelerometer and gyroscope. 
-Frequency signals are derived from time domain signals by application of a fast Fourier 
-transform. X, Y and Z indicate relative direction.
+Descriptions of the original features, from which we have derived these data can be found below. We extracted mean and standard deviation variables of each of the described features from X_test.txt and X_train.txt for each subject. We then determined the average value of each extracted variable for each subject for each activity. Angular velocity units are in radians per second. Acceleration data are in "gravity" units (presumably meters per second^2). Time and frequency indicate domains in which acceleration and angular velocity were obtained from accelerometer and gyroscope. Frequency signals are derived from time domain signals by application of a fast Fourier transform. X, Y and Z indicate relative direction.
 
 We renamed the features into the following:
  [1] "body acceleration mean time X"                                         
@@ -95,7 +88,7 @@ We renamed the features into the following:
 [79] "body body angular velocity jerk magnitude weighted mean frequency" 
 
 
-The following is a description of the "features" taken from a Samsung Galaxy Smartphone. 
+The following is a description of the "features" taken from a Samsung Galaxy Smartphone by Anguita et al., 2012. 
 
 Copied from features_info.txt and README.txt:
 

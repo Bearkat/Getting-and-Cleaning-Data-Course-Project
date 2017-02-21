@@ -1,4 +1,4 @@
-#Run_analysis will merge the test and train datasets showing mean and standard devitation from wearable device data collected from a samsung galaxy smartphone. Please make sure plyr and dplyr packages are installed before running this script. The object "tidy" is the tidy data set with the averages for each activity for each subject.
+##run_analysis.R will merge the test and train datasets showing mean and standard devitation from wearable device data collected from a samsung galaxy smartphone. Please make sure plyr and dplyr packages are installed before running this script. The object "tidy" is the tidy data set with the averages for each activity for each subject. CodeBook.md describes the variables and how they are derived. 
 
 ##Step 1: load plyr and dplyr packages assign "wd" as working directory and "url" to the data.  
 
