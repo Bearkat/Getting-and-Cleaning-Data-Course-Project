@@ -1,8 +1,10 @@
 ##Contents
 
-+run_analysis.R that obtains and cleans wearable device data
-+code book that modifies and updates the codbooks that were provided with the original data
-+the cleaned dataset "tidy.txt"
+-run_analysis.R that obtains and cleans wearable device data
+
+-code book that modifies and updates the codbooks that were provided with the original data
+
+-the cleaned dataset "tidy.txt"
 
 run_analysis.R will merge the test and train datasets showing mean and standard devitation from wearable device data collected from a samsung galaxy smartphone. Please make sure plyr and dplyr packages are installed before running this script. The object "tidy" is the tidy data set with the averages for each activity for each subject. CodeBook.md describes the variables and how they are derived. 
 
