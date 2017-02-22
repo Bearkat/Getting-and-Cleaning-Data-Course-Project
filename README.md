@@ -9,17 +9,17 @@
 ##run_analysis.R description:
 run_analysis.R will merge the test and train datasets showing mean and standard devitation from wearable device data collected from a samsung galaxy smartphone. Please make sure plyr and dplyr packages are installed before running this script. The object "tidy" is the tidy data set with the averages for each activity for each subject. CodeBook.md describes the variables and how they are derived. 
 
-Step 1: load plyr and dplyr packages assign "wd" as working directory and "url" to the data.  
+Step 1: load plyr and dplyr packages assign values to working directory and url objects.  
 
 Step 2: Download and unzip data, set file paths to data. 
 
-Step 3: Read features datat from features.txt, assign to object "features." Subset features to rows containing ##either mean or stdev. 
+Step 3: Read features datat from features.txt, assign to object "features." Subset features to rows containing either mean or stdev. 
 
-Step 4: Make features human readable/tidy. Stored in object "features_mean_std""
+Step 4: Make features human readable/tidy. Stored in object "features_mean_std"
 
 Step 5: Read labels data, remove underscores and replace with spaces.
 
-Step 6: Read activity data. Create a factor with activity numbers converted to descriptive activity names and ##replace underscores with spaces.
+Step 6: Read activity data. Create a factor with activity numbers converted to descriptive activity names and replace underscores with spaces.
 
 Step 7: Read in test and train subject and feature data sets and rename features variables (from step 3). 
 
