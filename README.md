@@ -1,6 +1,6 @@
 ##Contents:
 
--run_analysis.R obtains and cleans wearable device data
+-run_analysis.R obtains and cleans wearable device data from the link found in codebook.md
 
 -codebook modifies and updates the codebooks that were provided with the original data
 
